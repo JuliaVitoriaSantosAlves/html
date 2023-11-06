@@ -3,21 +3,22 @@
     padding: 0px;
 }
 
+.tamanho {
+    width: 200px;
+    height: 200px;
+}
+
 h1 {
     color: white;
-    height: 200px;
     background-color: gainsboro;
-    width: 200px;
     display: inline-block;
 }
 
 p {
     font-size: 16px;
-    height: 200px;
+    display: inline-block;
 }
 
 div {
-    height: 200px;
-    width: 200px;
     display: inline-block;
 }
