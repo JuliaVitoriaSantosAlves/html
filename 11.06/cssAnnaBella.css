@@ -1,0 +1,24 @@
+.tamanhotb {
+    width: 1300px;
+    text-align: center;
+    padding: 10px;
+    margin: 30px;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+td a {
+    text-decoration: none;
+    color: black;
+}
+
+td p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    margin: 15px;
+}
+
+td img {
+    width: 650px;
+    height: 500px;
+}
