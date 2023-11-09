@@ -61,11 +61,3 @@ a {
     height: 571px;
     background-color: black;
 }
-
-footer .voltar {
-    display: flex;
-    text-align: right;
-    height: 40px;
-    width: 50px;
-    background-color: blue;
-}
