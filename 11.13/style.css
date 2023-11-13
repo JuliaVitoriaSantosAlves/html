@@ -1,4 +1,109 @@
+:root {
+    --cor-primaria:#F7B600;
+    --cor-secundaria:#594317;
+    --cor-de-fundo:#DFE0DF;
+    --cor-terciaria:#402E32;
+
+    --cor-link:#00E4C7;
+    --cor-link-hover:#00AA92;
+
+    --fonte-primaria: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+}
+
 * {
     margin: 0;
     padding: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family: var(--fonte-primaria);
+    background-color: var(--cor-de-fundo);
+}
+
+/* main da página */
+
+.principal {
+    width: 920px;
+    margin: 0px auto;
+    padding: 15px;
+    height: auto;
+}
+
+/* area do cabeçalho */
+
+.cabecalho {
+    height: 5em;
+    padding: 1em;
+    background-color: var(--cor-primaria);
+    text-align: center;
+}
+.cabecalho__titulo {
+    color: var(--cor-secundaria);
+}
+
+.cabecalho__links a {
+    text-decoration: none;
+    font-size: 18px;
+    margin: 1em;
+    color: var(--cor-secundaria);
+}
+
+/*seleção principal*/
+
+.principal__postagens {
+    width: 680px;
+    float: left;
+}
+
+.postagens__conteiner {
+    margin-bottom: 20px;
+}
+
+.postagens__conteiner spam {
+    font-size: 10px;
+}
+
+.conteiner__titulo{
+    margin: 15px;
+}
+
+/* lateral da tela */
+
+.principal__lateral {
+    width: 240px;
+    float: right;
+}
+
+.conteudo__titulo {
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.conteudo__postagens {
+    margin-bottom: 12px;
+    font-size: 0.9em;
+    padding: 10px;
+    border-bottom: 1px dotted var(--cor-secundaria);
+}
+
+.conteudo__postagens a {
+    color: var(--cor-terciaria);
+    text-decoration: none;
+}
+
+.lateral__conteudo {
+    background-color: var(--cor-de-fundo);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* rodape */
+
+.rodape {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-de-fundo);
 }
