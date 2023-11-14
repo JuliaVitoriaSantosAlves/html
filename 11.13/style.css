@@ -1,7 +1,9 @@
 :root {
+
+    --cor-de-fundo:#DFE0DF;
+    
     --cor-primaria:#F7B600;
     --cor-secundaria:#594317;
-    --cor-de-fundo:#DFE0DF;
     --cor-terciaria:#402E32;
 
     --fonte-primaria: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
