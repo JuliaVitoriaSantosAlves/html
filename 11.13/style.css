@@ -36,6 +36,10 @@ body {
     padding: 1em;
     background-color: var(--cor-primaria);
     text-align: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+
 }
 .cabecalho__titulo {
     color: var(--cor-secundaria);
