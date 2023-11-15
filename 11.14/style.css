@@ -1,5 +1,47 @@
+:root {
+    --cor-principal: #0000FF;
+    --cor-secundaria1: #FF0000;
+    --cor-secundaria2: #00ff00;
 
+    --cor-letra1:#FFFFFF;
+    --cor-letra2:#000000;
+}
 * {
     margin: 0;
     padding: 0;
+}
+
+body {
+    background-color: var(--cor-principal);
+}
+
+.main {
+    margin: 0px auto;
+    height: 900px;
+    width: 900px;
+    background-color: var(--cor-secundaria1);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* evenly deixa todos os espaçamentos iguais */
+    align-items: stretch;
+    align-content: flex-start;
+}
+
+div {
+    padding: 60px;
+    background-color: var(--cor-secundaria2);
+    color: var(--cor-letra2);
+    border-radius: 10px;
+    font-weight: bolder;
+    border: 2px solid var(--cor-secundaria1);
+}
+
+#span2 {
+    font-size: 34px;
+}
+
+#span4 {
+    font-size: 52px;
 }
