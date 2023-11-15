@@ -18,15 +18,17 @@ body {
 .main {
     margin: 0px auto;
     height: 900px;
-    width: 900px;
+    width: 100%;
     background-color: var(--cor-secundaria1);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     /* evenly deixa todos os espaçamentos iguais */
-    align-items: stretch;
-    align-content: flex-start;
+    align-items: center;
+    /* todos os itens são centralizados no conteiner */
+    align-content: center;
+    /* os itens são centralizados em linhas */
 }
 
 div {
@@ -44,4 +46,17 @@ div {
 
 #span4 {
     font-size: 52px;
+}
+
+.div {
+    /*alinhamento do conteudo dos filhos*/
+    align-self: stretch;
+    /* tamanho definido antes de ver o disponivel */
+    flex-basis: 30px;
+    /* tamanho a ocupar / cresce os diminui no espaço disponivel*/
+    flex-grow: 3;
+}
+
+.div.selected {
+    order: 1;
 }
