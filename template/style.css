@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&family=Space+Grotesk&display=swap');
+
+:root {
+    --cor-padrão: #FF0000;
+    --cor-secundaria: #B10000;
+    --cor-terciaria: #760000;
+
+    --cor-texto:#FFFFFF;
+    --cor-texto2:#000000;
+
+    --fonte1:'Space Grotesk';
+    --fonte2: 'Glass Antiqua';
+}
+
+* {
+    margin: 0;
+    padding: o;
+}
+
+a {
+    text-decoration: none;
+    color: var(--cor-texto);
+}
+
+li a {
+    color: var(--cor-texto2);
+    margin: 0.5rem;
+}
+
+li a:hover {
+    color: var(--cor-texto1);
+    transition: 0.5s;
+    text-decoration: underline;
+    margin: 0.5rem;
+}
+
+em {
+    font-size: 2rem;
+}
+
+p {
+    text-align: justify;
+}
+
+.conteiner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.conteiner__header {
+    height: 100vh;
+    width: 95%;
+    background: url(https://wallpapercave.com/wp/wp4057518.jpg) no-repeat;
+    background-size: cover;
+    color: var(--cor-texto);
+}
+
+.conteiner__header div {
+    display: flex;
+    height: 40vh;
+    font-family: var(--fonte2);
+    align-items: stretch;
+}
+
+.conteiner__header p {
+    font-family: var(--fonte1);
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6rem;
+    padding: 0 2rem;
+    background-color: var(--cor-secundaria);
+    font-family: var(--fonte1);
+}
+
+.nav__ul {
+    display: flex;
+    list-style: none;
+    font-size: 1rem;
+}
+
+.conteiner__main {
+    width: 95%;
+    height: 100vh;
+}
+
+#bio {
+    padding: 3rem 0;
+    height: 100vh;
+    width: 90%;
+    font-family: var(--fonte1);
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: var(--cor-secundaria);
+    height: 5rem;
+    padding: 0 1.5rem;
+    align-items: center;
+    font-family: var(--fonte1);
+}
+
+.section1 p:hover {
+    color: var(--cor-texto);
+    transition: 0.5s;
+    text-decoration: overline;
+}
+
+.section1 h2 {
+    color: var(--cor-texto);
+    font-family: var(--fonte2);
+}
+
+.section2 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.main__div {
+    font-family: var(--fonte1);
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    margin: 2rem;
+}
+
+.main__div h5 {
+    text-align: end;
+}
+
+.main__div img {
+    margin: 1rem;;
+}
