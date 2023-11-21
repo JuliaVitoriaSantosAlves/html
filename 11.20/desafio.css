@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&family=Space+Grotesk&display=swap');
+
+:root {
+    --fonte1:'Glass Antiqua';
+    --fonte2:'Space Grotesk';
+
+    --cor1:#D20000;
+    --cor2:#900000;
+    --cor3:#720000;
+
+    --texto:#FFF;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    font-family: var(--fonte1);
+    color: var(--texto);
+}
+
+body {
+    background-color: var(--cor3);
+    color: var(--texto);
+    font-family: var(--fonte2);
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100vw;
+}
+
+.conteiner {
+    display: flex;
+    justify-content: space-evenly;
+    height: 80vh;
+    flex-wrap: wrap;
+}
+
+.conteiner__1 {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    height: 70vh;
+}
+
+.conteiner__1__q {
+    background: url(/11.20/img/aurora.jpeg) no-repeat;
+    background-size: cover;
+    width: 39vw;
+    height: 36vh;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.conteiner__1__l {
+    text-align: justify;
+    width: 39vw;
+    height: 15vh;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.conteiner__2 {
+    width: 60vw;
+    height: 70vh;
+}
+
+.conteiner__2__r {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    border-radius: 5px;
+    width: 58vw;
+    height: 17vh;
+    margin: 0.2rem auto;
+}
+
+.conteiner__div {
+    display: flex;
+    flex-flow: column wrap;
+    margin: auto;
+    width: 58.5vw;
+    height: 33.5vh;
+}
+
+.conteiner__div_1 {
+    border-radius: 5px;
+    width: 33vw;
+    height: 31.5vh;
+    background: url(/11.20/img/aurora2.jpeg) no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+.conteiner__div_2 {
+    border-radius: 5px;
+    background-color: blue;
+    width: 23.5vw;
+    height: 15vh;
+    margin: auto;
+}
+
+.conteiner__3 {
+    display: flex;
+    width: 100vw;
+    height: 15vh;
+}
+
+.conteiner__3__div {
+    margin: auto;
+    border-radius: 5px;
+    width: 98vw;
+    height: 13vh;
+    background-color: aqua;
+}

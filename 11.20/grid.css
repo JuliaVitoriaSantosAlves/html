@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.conteiner_main{
+    display: grid;
+    grid-template-columns: 990px 60vw 20vw;
+    grid-template-rows: 20vh 60vh 20vh;
+    grid-row-gap: 5px;
+    grid-column-gap: 5px;
+}
+
+.conteiner_main div {
+    border: 1px solid black;
+}
