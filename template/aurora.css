@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+    font-family: "montserrat", Helvetica, Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: brown;
+    height: 10vh;
+    width: 99.5vw;
+}
+
+.header nav {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    height: 6vh;
+    width: 60vw;
+    background-color: aqua;
+}
+
+.header h3 {
+    margin: auto;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+    width: 100vw;
+}
+
+.main__lateral{
+    width: 12.5vw;
+    height: 585vh;
+    background-color: aqua;
+
+}
+
+.main__hero {
+    display: flex;
+    flex-flow: row wrap;
+    width: 74.5vw;
+    height: 80vh;
+}
+
+#imagem {
+    width: 74.5vw;
+    height: 80vh;
+    background: url(/11.20/img/aurora1.jpg) no-repeat;
+    background-size: cover;
+}
+
+.hero__1 {
+    display: flex;
+    width: 75vw;
+    height: 80vh;
+}
+
+.center {
+    height: 500vh;
+    width: 37.5vw;
+    padding: 1rem;
+    background-color: aqua
+}
+
+.center p {
+    text-align: justify;
+    font-size: 1rem;
+    margin: 1.5rem auto ;
+}
+
+.lateral {
+    padding: 1rem;
+    height: 500vh;
+    width: 15vw;
+    background-color: blue;
+}
