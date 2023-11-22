@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+body {
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: lightcoral;
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "nav article ads"
+        "nav article ads"
+        "nav article ads"
+        "footer footer footer";
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 10% 5% 70% 5% 10%;
+}
+
+header {
+    grid-area: header;
+    background-color: rgb(175, 31, 31);
+}
+
+nav {
+    grid-area: nav;
+    background-color: rgb(177, 0, 0);
+}
+
+article {
+    grid-area: article;
+    background-color: darkgray;
+}
+
+.ads {
+    grid-area: ads;
+    background-color: gray;
+}
+
+footer {
+    grid-area: footer;
+    background-color: crimson;
+}
