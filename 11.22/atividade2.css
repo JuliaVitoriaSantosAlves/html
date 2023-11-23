@@ -37,8 +37,8 @@ body {
 }
 
 .article div {
-    height: 130px;
-    width: 130px;
+    height: 20vh;
+    width: 20vw;
     background-color: black;
     margin-bottom: 7px;
 }

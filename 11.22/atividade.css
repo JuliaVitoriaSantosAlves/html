@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    margin: 2px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-areas:
+    "header header nav"
+    "aside a1 a2"
+    "aside a3 a4"
+    "aside a5 a"
+    ;
+    grid-template-columns: 30% 33% 33%;
+    grid-template-rows: 10% 30% 30% 30%;
+}
+
+header {
+    grid-area: header;
+    background-color: aliceblue;
+}
+
+nav {
+    grid-area: nav;
+    background-color: brown;
+}
+
+.aside {
+    grid-area: aside;
+    background-color: chartreuse;
+}
+
+.a1 {
+    grid-area: a1;
+    background-color: chocolate;
+}
+.a2 {
+    grid-area: a2;
+    background-color: blue;
+}
+.a3 {
+    grid-area: a3;
+    background-color: blueviolet;
+}
+.a4 {
+    grid-area: a4;
+    background-color: darkblue;
+}
+.a5 {
+    grid-area: a5;
+    background-color: darkmagenta;
+}
