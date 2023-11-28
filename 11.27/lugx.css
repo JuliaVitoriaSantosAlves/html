@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    display: grid;
+    grid-template-rows:
+    20vh 100vh 50vh repeat(3, 100vh) 100vh 20vh;
+}
+
+nav {
+    background-color: aqua;
+}
+
+header {
+    background-color: blue;
+}
+
+section {
+    background-color: brown;
+}
+
+main {
+    background-color: coral;
+    border: 2px solid black;
+}
+
+article {
+    background-color: blue;
+}
+
+footer {
+    background-color: aquamarine;
+}
