@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fade {
+    width: 200px;
+    height: 200px;
+    margin: 40px auto;
+    background-color: #808080;
+    text-align: center;
+    color: #ffffff;
+    font-size: 38px;
+    opacity: 0.4;
+    transition: 1s;
+}
+
+.fade:hover {
+    opacity: 1;
+    transition: 1s;
+}
+
+.grow {
+    width: 200px;
+    height: 200px;
+    margin: 40px auto;
+    background-color: #808080;
+    text-align: center;
+    color: #ffffff;
+    font-size: 38px;
+    transition: 1s;
+}
+
+.grow:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.shrink {
+    width: 200px;
+    height: 200px;
+    margin: 40px auto;
+    background-color: #808080;
+    text-align: center;
+    color: #ffffff;
+    font-size: 38px;
+    transition: 1s;
+}
+
+.shrink:hover {
+    transform: scale(0.9);
+    transition: 1s;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    margin: 40px auto;
+    background-color: #808080;
+    text-align: center;
+    color: #ffffff;
+    font-size: 38px;
+    transition: 1s;
+}
+
+.circle:hover {
+    border-radius: 49%;
+    transition: 1s;
+}

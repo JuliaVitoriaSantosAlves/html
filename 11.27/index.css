@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #242424;
+    font-family: sans-serif;
+
+    /* quebra de palavras no navegador */
+
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+h1, h2 {
+    font-weight: 900;
+    color: #000000;
+}
+
+.wallpaper {
+    width: 100vw;
+    margin: 0px auto;
+}
+
+/* començando a brincadeira de verdade */
+
+.conteiner {
+    width: 100vw;
+    max-width: 760px;
+    margin: 0px auto;
+    padding: 0px 20px;
+}
+
+main {
+    display: block;
+    background-color: #fffff9;
+}
+
+section.modulo p {
+    margin-top: 40px;
+}
+
+section.modulo:last-child {
+    margin-bottom: 0px;
+}
+
+section.modulo h2 {
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+section.modulo.content {
+    padding: 40px 0px;
+    background-color: #ece7e5;
+}
+
+/* EFEITO PARALLAX */
+
+section.modulo.parallax {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    /* o babado mora no attchin e no relativo ao pai */
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section.modulo.parallax::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: linear-gradient(to bottom, #000000) 0, #000000 40%, #000000 100%;
+}
+
+section.modulo.parallax-1 {
+    background-image: url(/11.27/img/img01.png);
+}
+
+section.modulo.parallax-2 {
+    background-image: url(/11.27/img/img02.png);
+}
+
+section.modulo.parallax-3 {
+    background-image: url(/11.27/img/img03.png);
+}
+
+section.modulo.parallax h1 {
+    text-align: center;
+    font-size: 80px;
+    z-index: 50;
+    color: #fffff9;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px #242424, 0 0 1em #000000, 0 0 0.2em #000000;
+}
+
+@media all and (max-width: 820px) {
+    section.modulo h2 {
+        font-size: 32px;
+    }
+    .modulo h2, p {
+        padding: 0px 8px;
+    }
+    .conteiner {
+        margin: 0px;
+        padding: 0px;
+    }
+    section.modulo.parallax h1 {
+        font-size: 36px;
+    }
+}
