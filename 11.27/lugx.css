@@ -1,30 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Limelight&family=Love+Light&display=swap');
+
+/* limeligh love light*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none !important;
+}
+
 .body {
     display: grid;
     grid-template-rows:
-    20vh 100vh 50vh repeat(3, 100vh) 100vh 20vh;
+    130vh 40vh repeat(3, 100vh) 70vh 15vh;
+    font-family: Electrolize, "sans-serif";
 }
 
 nav {
-    background-color: aqua;
+    display: grid;
+    grid-template-columns: repeat(
+        2, 1fr) ;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em;
+}
+
+nav a {
+    color: #fff;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: 100px 100px 1fr 100px 100px;
+    place-items: center;
+    list-style: none;
+}
+
+#bg {
+    background-image: url(/11.27/img_lugx/banner-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    display: grid;
+    grid-template-rows: 150px ;
 }
 
 header {
-    background-color: blue;
+    color: #fff;
+    display: grid;
+    grid-template-areas:
+    "h5 img"
+    "h2 img"
+    "p img"
+    "form img";
+    margin: 1rem 3rem;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50px 50px 300px 100px 50px ;
 }
 
-section {
-    background-color: brown;
+.header_h5 {
+    grid-area: h5;
+}
+
+.header_h2 {
+    grid-area: h2;
+}
+
+.header_p {
+    grid-area: p;
+}
+
+.header_form {
+    grid-area: form;
+}
+
+.header_img {
+    grid-area: img;
+}
+
+.div_img {
+    background-color: black;
+    border-radius: 49%;
+    height: 18vh;
+    width: 9vw;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.section_principal {
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    grid-template-rows: 50% 50%;
+    text-align: center;
+    justify-content: space-evenly;
 }
 
 main {
-    background-color: coral;
     border: 2px solid black;
+    background-color: blueviolet;
 }
 
 article {
@@ -34,3 +110,5 @@ article {
 footer {
     background-color: aquamarine;
 }
+
+
