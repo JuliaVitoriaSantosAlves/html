@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #222424;
+    font-family: Helvetica;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+h1, h2 {
+    font-weight: 900;
+    color: #222424;
+}
+
+#wallpaper {
+    width: 100vw;
+    margin: 0px auto;
+}
+
+.content {
+    width: 100vw;
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 0px 20px;
+}
+
+#wallpaper_main {
+    display: block;
+    background-color: lightslategray
+}
+
+section.content p {
+    margin-bottom: 40px;
+}
+
+section.content:last-child {
+    margin-bottom: 0px;
+}
+
+section.content h2 {
+    margin-bottom: 40px;
+    font-size: 32px;
+}
+
+section.content_div {
+    padding: 40px 0px;
+    background-color: aliceblue;
+}
+
+section.parallax {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.parallax-1 {
+    background: url(/11.29/img/04.jpg);
+}
+
+.parallax-2 {
+    background: url(/11.29/img/02.jpg);
+}
+.parallax-3 {
+    background: url(/11.29/img/04.jpg);
+}
+.parallax-4 {
+    background: url(/11.29/img/02.jpg);
+}
