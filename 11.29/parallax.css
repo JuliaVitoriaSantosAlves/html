@@ -55,6 +55,9 @@ section.parallax {
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    /* parte funcional do parallax */
+
     height: 100vh !important;
     width: 100vw;
     position: relative;

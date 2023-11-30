@@ -21,8 +21,7 @@ body {
     width: 100%;
     background-color: var(--cor-secundaria1);
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     justify-content: space-evenly;
     /* evenly deixa todos os espaçamentos iguais */
     align-items: center;
