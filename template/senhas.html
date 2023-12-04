@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="senhas.css">
+
+    <title>Senhas</title>
+</head>
+<body>
+    <header></header>
+    <main>
+        <section>
+            <h1>Gerador de Senhas</h1>
+            <p id="password"></p>
+            <button id="generate">Gerar Senha</button>
+        </section>
+    </main>
+    <footer></footer>
+    <script>
+        // Função para gerar uma senha
+function generatePassword() {
+    var chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()çÇ?/{[]}_-";
+    // Tamanho da senha
+    var length = 14;
+    // Variável para armazenar a senha
+    var password = "";
+    // Loop para escolher um caractere aleatório de chars e concatená-lo à senha
+    for (var i = 0; i < length; i++) {
+        // Gerar um índice aleatório
+        var index = Math.floor(Math.random() * chars.length);
+        // Pegar o caractere correspondente ao índice
+        var char = chars[index];
+        // Adicionar o caractere à senha
+        password += char;
+    }
+    // Retornar a senha gerada
+    return password;
+}
+
+// Selecionar o elemento HTML com o id "password"
+var passwordElement = document.getElementById("password");
+// Selecionar o elemento HTML com o id "generate"
+var generateElement = document.getElementById("generate");
+// Adicionar um evento de clique ao elemento generate
+generateElement.addEventListener("click", function() {
+    // Chamar a função generatePassword e atribuir o resultado ao elemento password
+    passwordElement.textContent = generatePassword();
+});
+    </script>
+</body>
+</html>
