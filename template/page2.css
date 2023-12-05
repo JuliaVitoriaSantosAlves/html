@@ -1,0 +1,155 @@
+* {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#cabecalho {
+    display: flex;
+    align-items: center;
+    width: 98vw;
+    height: 10vh;
+    background-color: aqua;
+    margin: auto;
+}
+
+#cabecalho h1 {
+    margin: auto;
+}
+
+#cabecalho nav {
+    margin: auto;
+}
+
+nav input {
+    width: 30vw;
+    height: 5vh;
+    margin-right: 20px;
+}
+
+nav button {
+    width: 8vw;
+    height: 5vh;
+    background-color: chartreuse;
+    border-radius: 10px;
+    border: 1px solid #fff;
+}
+
+.section_1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 98vw;
+    height: 100vh;
+}
+
+#section_1_img {
+    margin: 2vh;
+    width: 88vw;
+    height: 56vh;
+    background: url(/11.29/img/02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.section_1_texts {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 88vw;
+    height: 40vh;
+}
+
+#texts_1 {
+    background-color: aqua;
+    width: 49%;
+    height: 95%;
+    text-align: justify;
+    padding: 20px;
+}
+
+#texts_2 {
+    background-color: chocolate;
+    width: 49%;
+    height: 95%;
+    text-align: justify;
+    padding: 20px;
+}
+
+.section_2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 98vw;
+    height: 100vh;
+}
+
+#section_2_video {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 2vh;
+    width: 88vw;
+    height: 56vh;
+}
+
+#section_2_texts {
+    width: 88vw;
+    height: 40vh;
+}
+
+#section_2_texts h2 {
+    height: 8vh;
+    padding: 15px 100px;
+}
+
+#section_2_texts p {
+    padding: 20px;
+    width: 88vw;
+    height: 32vh;
+    text-align: justify;
+}
+
+.section_3 {
+    background-color: aqua;
+    width: 98vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#section_3_principal {
+    background-color: blueviolet;
+    width: 88vw;
+    height: 95vh;
+}
+
+#div_section3 {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 33vh 33vh 33vh;
+    grid-template-areas:
+    "img1 text1";
+    gap: 20px;
+}
+
+#img_31 {
+    width: 25vw;
+    height: 25vh;
+    background: url(/11.29/img/01.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: img1;
+}
+
+#text_31 {
+    width: 60vw;
+    height: 25vh;
+    grid-area: text1;
+}

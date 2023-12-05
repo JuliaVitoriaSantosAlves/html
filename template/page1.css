@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr); /* 12 colunas de tamanho igual */
+    grid-template-rows: 100px 300px 100px; /* 3 linhas de altura fixa */
+    gap: 10px; /* 10px de espaçamento entre as células */
+    height: 100vh; /* altura total da janela */
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364); /* gradiente azul escuro */
+}
+  
+.grid-item {
+    background-color: white; /* cor de fundo branca */
+    border-radius: 5px; /* bordas arredondadas */
+    padding: 20px; /* espaçamento interno */
+    font-family: Arial, sans-serif; /* fonte Arial */
+}
+  
+.header {
+    grid-column: 1 / 13; /* ocupa as 12 colunas */
+    grid-row: 1 / 2; /* ocupa a primeira linha */
+    display: flex; /* usa flexbox para alinhar os elementos */
+    align-items: center; /* alinha verticalmente */
+    justify-content: space-between; /* alinha horizontalmente com espaço entre */
+}
+  
+.logo {
+    width: 100px;
+    height: 50px;
+}
+  
+.menu {
+    display: flex; /* usa flexbox para alinhar os elementos */
+    list-style: none; /* remove os marcadores da lista */
+}
+  
+.menu li {
+    margin: 0 10px;
+}
+  
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+  
+.main {
+    grid-column: 5 / 9; /* ocupa as colunas de 5 a 8 */
+    grid-row: 2 / 3; /* ocupa a segunda linha */
+}
+  
+.form {
+    display: flex;
+    flex-direction: column;
+}
+  
+.form input {
+    margin: 10px 0; /* margem entre os campos */
+    padding: 10px; /* espaçamento interno */
+    border: 1px solid #ccc; /* borda cinza */
+    border-radius: 5px; /* bordas arredondadas */
+}
+  
+.form button {
+    margin: 10px 0; /* margem entre o botão e o campo */
+    padding: 10px; /* espaçamento interno */
+    border: none; /* sem borda */
+    border-radius: 5px; /* bordas arredondadas */
+    background-color: #2c5364; /* cor de fundo azul */
+    color: white; /* cor branca */
+    font-weight: bold; /* fonte em negrito */
+}
+  
+.form a {
+    text-align: center; /* alinha o texto ao centro */
+    color: #2c5364; /* cor azul */
+    font-weight: bold; /* fonte em negrito */
+}
+  
+.footer {
+    grid-column: 1 / 13; /* ocupa as 12 colunas */
+    grid-row: 3 / 4; /* ocupa a terceira linha */
+    display: flex; /* usa flexbox para alinhar os elementos */
+    align-items: center; /* alinha verticalmente */
+    justify-content: flex-end; /* alinha horizontalmente à direita */
+}
+  
+.app-logo {
+    width: 50px; /* largura do logo */
+    height: 50px; /* altura do logo */
+    margin-right: 20px; /* margem à direita */
+}
