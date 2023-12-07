@@ -3,3 +3,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.largura {
+    max-width: 500px;
+    height: 300px;
+}
+.row {
+    height: 100%;
+}
+
+.col-6 , .col-3 {
+    height: 25px;
+    margin: 0;
+}
+
+/* funciona basicamente como um texto*/
+.bi.bi-bell{
+    font-size: 40px;
+    color: green;
+    margin: 2px;
+}
+
+.bi.bi-window-x {
+    color: brown;
+    font-size: 40px;
+    margin: 4px;
+}
