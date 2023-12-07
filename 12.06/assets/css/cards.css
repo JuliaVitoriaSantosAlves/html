@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main {
+    background: url(/12.06/assets/imagens/bg-02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+h2 {
+    padding: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.row {
+    width: 100vw;
+    height: 100vh;
+}
+
+.cards {
+    width: 100px;
+    height: 400px;
+    background-color:#fff;
+    opacity: 0.8;
+    border-radius: 10px;
+    margin: 0px 55px;
+}
+
+.bi.bi-rss {
+    font-size: 60px;
+}
+
+.bi.bi-headphones {
+    font-size: 60px;
+}
+
+.bi.bi-card-checklist {
+    font-size: 60px;
+}
