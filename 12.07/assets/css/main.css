@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.h100 {
+    height: 100px;
+    background-color: aqua;
+    opacity: 0.6;
+}
+
+.h400 {
+    height: 400px;
+    background-color: aquamarine;
+    opacity: 0.7;
+}
+
+.col-3 {
+    border: 1px solid black;
+    height: 100px;
+    width: 300px;
+}
+
+.borderblack {
+    border: 2px solid black;
+    height: 250px;
+}
