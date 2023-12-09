@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+}
+
+body {
+    background-color: rgb(0, 0, 44);
+}
+
+.hr_h {
+    width: 350px;
+    color: #fff;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.Nav_a {
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    width: 100px;
+    height: 40px;
+}
+
+.border_r {
+    border-radius: 15px;
+}
+
+.Nav_a:hover {
+    background-color: rgb(8, 8, 165);
+    color: #fff;
+    border-radius: 15px;
+}
+
+.header {
+    width: 100vw;
+    height: 15vh;
+    align-items: center;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h6 {
+    font-size: 13px;
+}
+
+p {
+    font-size: 12px;
+}
+
+strong {
+    color: rgb(8, 8, 165);
+}
+
+.nav {
+    justify-content: space-evenly;
+    font-size: 18px;
+}
+
+.card {
+    margin: 10px;
+    background-color: rgb(0, 0, 120);
+    height: 50vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+}
+
+.main {
+    justify-content: center;
+    color:#000;
+    opacity: 0.5;
+}
+
+.img {
+    background: url(/template/imagens/all.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 17vw;
+    height: 45vh;
+}
+
+.text_card {
+    width: 15vw;
+    height: 45vh;
+    margin-left: 10px;
+    text-align: justify;
+}
+
+.card_div {
+    display: flex;
+    height: 90px;
+    width: 200px;
+}
+
+.card_div img {
+    border-radius: 50px;
+}
+
+.boll {
+    width: 40px;
+    height: 75px;
+}
+
+.ultima_linha {
+    width: 200px;
+    height: 115px;
+    justify-content: center;
+}
