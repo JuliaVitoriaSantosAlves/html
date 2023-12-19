@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.div_footer {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.perfil {
+    width: 30px;
+    height: 30px;
+    background: url(/12.08/assets/images/current-04.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
