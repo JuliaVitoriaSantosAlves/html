@@ -4,57 +4,188 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/01.02/assets/css/bootstrap-5.3.2/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="/12.19/assets/images/bootstrap-icons-1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/01.02/assets/css/main.css">
-    <title>
-        Al-Mushar
-    </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <title>al-mushar</title>
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg d-flex ">
+        <nav class="navbar navbar-expand-lg banner">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <img src="/template/imagens/all.jpeg" alt="">
+                    <img class="logo" src="/01.02/assets/images/logomarca.png" alt="logo restaurante Al-Mushar"
+                        width="35" height="24">
                 </a>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">
-                                Home
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                Contato
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">
-                                Menu
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                Curiosidades
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                Faça sua reseva
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+            </div>
+            <div class="collapse navbar-collapse acoes" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">
+                            Contato
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#menu">
+                            Menu
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Curiosidades">
+                            Curiosidades
+                        </a>
+                    </li>
+                </ul>
             </div>
         </nav>
     </header>
     <main>
-        <section class="hero"></section>
+        <section class="hero d-flex">
+            <div class="hero-1">
+                <h2>
+                    Pedido online
+                </h2>
+                <p>
+                    Agora ficou mais fácil fazer seu pedido
+                </p>
+                <button class="button" type="button">
+                    Fazer pedido
+                </button>
+            </div>
+            <div class="hero-2"></div>
+        </section>
     </main>
-    <footer></footer>
+
+
+    <section class="container-fluid banner_1">
+        <h2 class="banner_1_h2">
+            Sobre nós
+        </h2>
+        <div class="coluna_01">
+            <img class="tabule" src="/01.02/assets/images/tabule_de_quinoa_img_0605_2.png" alt="">
+        </div>
+        <div class="coluna_02">
+            <h2>
+                Al-mushar
+            </h2>
+            <p>
+                O Restaurante Árabe Al-mushar foi fundado pelo libanês Jawad Salim Ghazi em 1967 e é até
+                hoje administrado por ele e por sua filha, Luciana Ghazi, o que mantém o restaurante como um
+                dos mais antigos e tradicionais Restaurante Árabes do Rio de Janeiro e do Brasil, com seus pratos
+                preparados de forma artesanal e seguindo receitas originais do Líbano do próprio Jawad.
+
+                A logo do restaurante remete aos navios que trouxeram os imigrantes do Líbano ao Brasil e aos
+                demais países, simbolizando a história de Jawad, que veio de navio do Líbano ao Brasil aos 17
+                anos de idade.
+            </p>
+        </div>
+    </section>
+    <section class="container-fluid contatos">
+        <div class="caixa01">
+            <h2 id="contato">Contato:</h2>
+            <h5>(88)99543-3456</h5>
+            <h2>Endereço:</h2>
+            <p>rua francisco cardona ,amontada</p>
+        </div>
+        <div class="caixa02">
+            <div class="ajuste">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21970.224890399004!2d-39.849490287037035!3d-3.3634207744470563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c02d4be71cab27%3A0x76f1d2207639ec62!2sAmontada%2C%20CE%2C%2062500-000!5e0!3m2!1spt-BR!2sbr!4v1704237897336!5m2!1spt-BR!2sbr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+                <img class="pagemento" src="forma de pagamento.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="menu">
+        <h2 id="menu">
+            Menu
+        </h2>
+        <div class="cards-case">
+            <div class="card">
+                <img src="/01.02/assets/images/bruschetta-arabe-marilan.png" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        Bruschetta
+                    </h5>
+                    <button class="button-card">Adicionar aos pedidos</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/01.02/assets/images/tabule_de_quinoa_img_0605_2.png" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        Tabule Quinoa
+                    </h5>
+                    <button class="button-card">Adicionar aos pedidos</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/01.02/assets/images/pao-sirio-caseiro-730x480.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        Pão Sírio Caseiro
+                    </h5>
+                    <button class="button-card">Adicionar aos pedidos</button>
+                </div>
+            </div>
+        </div>
+        <div class="button-pedidos">
+            <button class="button-card" type="button">
+                Visualizar pedidos
+            </button>
+        </div>
+    </section>
+    <section class="menu_01" id="Curiosidades">
+        <h2 class="h2_02">curiosidade</h2>
+        <div class="cards-case">
+            <div class="card">
+                <img src="curiosidade 01.png" class="card-img-top" alt="">
+                <div class="card-body">
+
+                </div>
+            </div>
+            <div class="card">
+                <img src="curiosidade 02.png" class="card-img-top" alt="">
+                <div class="card-body">
+
+                </div>
+            </div>
+            <div class="card">
+                <img src="curiosidade 03.png" class="card-img-top" alt="">
+                <div class="card-body">
+
+                </div>
+            </div>
+        </div>
+        <div class="button-pedidos">
+        </div>
+    </section>
+    <footer class="container-fluid footer">
+        <hr>
+        <div class="d-flex ft_div">
+            <p>
+                Nos encontre nas redes socias
+            </p>
+            <div class="icons d-flex">
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-twitter"></i>
+            </div>
+            <span>
+
+                Todos os direitos reservados &copy;
+            </span>
+        </div>
+    </footer>
 </body>
 
 </html>
