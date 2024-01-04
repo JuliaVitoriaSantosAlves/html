@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/01.03/assets/css/reset.css">
+    <link rel="stylesheet" href="/01.03/assets/css/main.css">
+    <title>
+        JavaScript
+    </title>
+</head>
+<body>
+    <header></header>
+    <main>
+        <p id="paragrafo">
+            Olá
+        </p>
+
+        <script>
+
+            //inner é uma substituição, seguir com HTML quer dizer que irá substituir no HTML//
+
+            function mfunction() {
+                var x = document.getElementById("paragrafo");
+                x.innerHTML=" Oizinho! Oizinho! Oizinho! Oizinho! Oizinho! Oizinho!  Oizinho!  Oizinho! Oizinho!";
+            }
+
+            document.writeln ("Hello gay");
+            document.writeln ("<h2>"+document.title+"</h2>");
+
+            let t1="Júlia";
+            let t2="Santos";
+
+            let t3=t1+" "+t2;
+            document.writeln ("<h1>"+t3+"</h1>");
+
+            var d = 100;
+            d +=5;
+            document.writeln (d);
+            var d = 100;
+            d /=10;
+            document.writeln (d);
+            var d = 100;
+            d -=5;
+            document.writeln (d);
+            var d = 100;
+            d /=10;
+            document.writeln (d);
+            document.writeln("fim")
+
+            var x;
+            x=56;
+            document.writeln(x);
+
+            y=x-5;
+
+            document.writeln(y);
+
+            const Z = "ablabla";
+            document.writeln (Z);
+            Z = "abla";
+            document.writeln(Z);
+
+        </script>
+
+        <button type="button" onclick="alert('Bem vindo')">
+            Clique aqui.
+        </button>
+        <button type="button" onclick="mfunction();">
+            Oi?
+        </button>
+    </main>
+    <footer></footer>
+</body>
+</html>
